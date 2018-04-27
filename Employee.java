@@ -2,13 +2,13 @@
 public class Employee {
 	private String name;
 	private int rank;
-	private int yearsOfExperiance;
+	private int numberofworkyears;
 
-	public Employee(String name, int rank, int yearsOfExperiance) {
+	public Employee(String name, int rank, int numberofworkyears) {
 
 		this.name = name;
 		this.rank = rank;
-		this.yearsOfExperiance = yearsOfExperiance;
+		this.numberofworkyears = numberofworkyears;
 	}
 
 	public Employee(Employee e) {
@@ -38,8 +38,8 @@ public class Employee {
 		return rank;
 	}
 
-	public int getYearsOfExperiance() {
-		return yearsOfExperiance;
+	public int getnumberofworkyears() {
+		return numberofworkyears;
 	}
 
 }
